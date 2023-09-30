@@ -7,19 +7,32 @@ font-family: 'Raleway', sans-serif; */
   font-family: "Montserrat", sans-serif;
 }
 
+
+.p-c {
+  color: #2b8fe2;
+}
+
+.p-b {
+  background-color: #2b8fe2;
+  ;
+}
+
 .navbar {
   .navbar-brand h1 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: xx-large;
   }
+
   .nav-link {
     font-weight: 600;
   }
+
   .nav-link:hover {
     color: #2b8fe2;
   }
 }
+
 .carousel-item img {
   filter: brightness(0.8);
 }
@@ -30,6 +43,7 @@ font-family: 'Raleway', sans-serif; */
     font-family: "Lato", sans-serif;
     font-weight: 700;
   }
+
   .h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
@@ -38,14 +52,17 @@ font-family: 'Raleway', sans-serif; */
 
 /*** service ***/
 .service {
-  background-color: rgb(233, 248, 252);
+  background-color: #e3fffe;
 }
+
 .service-text {
   position: absolute;
   width: 75%;
   bottom: 30px;
   left: 0;
   transition: 0.5s;
+  box-shadow: 1px 1px 1px 0 #00000021;
+
 }
 
 .service-item:hover .service-text {
@@ -63,4 +80,34 @@ font-family: 'Raleway', sans-serif; */
 .img-container {
   height: 400px;
   overflow: hidden;
+}
+
+
+
+
+/* footer */
+.footer {
+  font-family: 'Red Hat Display', sans-serif;
+  background: linear-gradient(#000000cd, rgba(0, 0, 0, 0.566)), url(https://t4.ftcdn.net/jpg/05/00/76/75/360_F_500767502_AdezwSUsyb04l79RpV6zubKulRnIHpd0.jpg);
+  background-size: cover;
+
+  background-position: center;
+
+
+  .p,
+  .d-block {
+    font-family: 'Red Hat Display', sans-serif;
+  }
+
+  .copyright {
+    font-family: 'Red Hat Display', sans-serif;
+  }
+
+}
+
+
+.facts {
+  background-image: linear-gradient(rgb(2 12 28 / 79%), rgb(0 14 36 / 80%)), url(https://5.imimg.com/data5/YF/PG/MY-2239165/kitchen-equipments-500x500.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
